@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="blog">
+  <head>
+      <title>Main Index</title>
+    <link rel='stylesheet' href='css/style.css' />
+  </head>
+  <body>
+      
+      <div class="container">
+          <header>
+              <h1>Monse's Blog</h1>
+              <nav>
+                  <a href="#/">Home</a>
+                  <a href="#/about">About</a>
+              </nav>
+          </header>
+          
+          <div ng-view>
+                <!-- ajaxed content here -->
+          </div>
+          
+          <footer>footer</footer>
+      </div>
+      
+      <script src="js/angular.min.js"></script>
+      <script src="js/angular-route.min.js"></script>
+      <script src="js/main.js"></script>
+      
+  </body>
+</html>
