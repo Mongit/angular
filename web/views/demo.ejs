@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Experimenting with Angular</title>
+  </head>
+  <body ng-app='myApp'> 
+      
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                  <ul class="nav">
+                      <li><a href="#view1">View1</a></li>
+                      <li><a href="#view2">View2</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-9">
+                  <div ng-view></div>
+              </div>
+          </div>
+      </div>
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+      <script src="/js/main.js"></script>
+      
+    </body>
+</html>

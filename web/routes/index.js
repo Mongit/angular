@@ -7,11 +7,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/angular', function(req, res, next) {
-  res.render('angular');
+  res.render('angular', { title: 'Using AngularJS Directives and Data Binding' });
 });
 
 router.get('/controller', function(req, res, next) {
-  res.render('controller');
+  res.render('controller', { title: 'Using AngularJS Directives and Data Binding' });
 });
 
 module.exports = router;
