@@ -10,6 +10,10 @@ myApp.config(['$routeProvider', function ($routeProvider) {
             templateUrl: '/js/templates/view2.ejs',
             controller: 'SimpleController2'
       }).
+    when('/boots', { 
+            templateUrl: '/js/templates/boots.ejs',
+            controller: 'SimpleController'
+      }).
     otherwise({ redirectTo: '/view1' });  
 }]);
 

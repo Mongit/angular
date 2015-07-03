@@ -14,4 +14,8 @@ router.get('/controller', function(req, res, next) {
   res.render('controller', { title: 'Using AngularJS Directives and Data Binding' });
 });
 
+router.get('/bootstrap', function(req, res, next) {
+  res.render('bootstrap');
+});
+
 module.exports = router;
