@@ -14,9 +14,20 @@
       <div class="container">
           <br />
           <form action="" class="">
-          <div class="form-group"> 
-              <label for="nombre">Nombre: </label>
+              
+          <div class="form-group has-success"> 
+              <label for="nombre" class="control-label">Nombre: </label>
               <input class="form-control" id="nombre" type="text" placeholder="Nombre:">
+          </div>
+
+          <div class="form-group has-warning"> 
+              <label for="apellido" class="control-label">Apellido: </label>
+              <input class="form-control" id="apellido" type="text" placeholder="Apellido:">
+          </div>
+              
+          <div class="form-group has-error"> 
+              <label for="direccion" class="control-label">Direccion: </label>
+              <input class="form-control" id="direccion" type="text" placeholder="Direccion:">
           </div>
           
           <div class="form-group">
@@ -38,7 +49,7 @@
           <div class="form-group">
               <label for="archivo">Archivo:</label>
               <input type="file" id="archivo">
-              <p class="">Maximo 50MB</p>
+              <p class="help-block">Maximo 50MB</p>
           </div>
               
         <button class="btn btn-primary">Enviar</button>
