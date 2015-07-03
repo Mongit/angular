@@ -18,4 +18,8 @@ router.get('/bootstrap', function(req, res, next) {
   res.render('bootstrap');
 });
 
+router.get('/formulario', function(req, res, next) {
+  res.render('formulario');
+});
+
 module.exports = router;
