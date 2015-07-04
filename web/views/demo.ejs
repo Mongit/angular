@@ -1,9 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+<div class="wrapper">
   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="stylesheets/img.css" rel="stylesheet" media="screen">
+  
       <title>Experimenting with Angular</title>
   </head>
   <body ng-app='myApp'> 
+      <!-- Navbar-->
+      <div class="container">
+        <header class="page-header">
+          <ul class="nav nav-pills pull-right">
+            <li><a href="/">Home</a></li>
+            <li><a href="/demo">Demo</a></li>
+            <li><a href="#view1">View1</a></li>
+            <li><a href="#view2">View2</a></li>
+            <li><a href="#boots">Boots</a></li>
+          </ul>
+          <h3>Demo View!</h3>
+        </header>
+    </div><!--End Navbar -->
+    
+      <!--1st Large Banner Image -->
+    <div class="wrapper">
+       <img src="images/flowersTheme.jpg" class="img-responsive" alt="Responsive image">
+        <div class="sol-sm-6">
+        <h1 id="text">Hello World!</h1>
+        </div>
+     </div>
+      
+      <!--Main Content -->  
+    <div class="wrapper">
+      <div class="container">
+        <h1> Main content</h1>
+    </div>
+</div>
+      
+      
+      <!-- ====================================== -->
       
       <div class="container">
           <div class="row">
@@ -20,8 +57,10 @@
           </div>
       </div>
       
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
       <script src="/js/main.js"></script>
-      
     </body>
+</div><!-- End wrapper fullwidth-->    
 </html>
